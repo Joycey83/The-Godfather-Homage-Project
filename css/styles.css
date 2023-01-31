@@ -1,14 +1,9 @@
-body {
-  background: purple;
-}
-
 h1 {
   font-family: "El Messiri", sans-serif;
-  font-size: 80px;
+  font-size: 110px;
+  font-weight: 700;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
-  font-size: 50px;
-  font-weight: 900;
 }
