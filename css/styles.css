@@ -101,18 +101,29 @@ main p {
   padding: 0 70px;
 }
 /* Character section */
+.images-container {
+  background-color: #fff8dc;
+  text-align: center;
+}
 
-.character-heading {
-  border-bottom: 2px solid black;
+.image-content {
+  margin: 40px 0;
+}
+
+.character-heading h2 {
   font-size: 50px;
+  font-weight: 800;
   text-align: center;
   padding: 80px 0;
+  color: #1b1212;
+  letter-spacing: 2px;
 }
 
 .character-sub-heading {
   font-size: 30px;
   font-weight: 500;
   line-height: 2;
+  color: #1b1212;
 }
 
 .heading-border {
@@ -153,10 +164,6 @@ main p {
   grid-template-columns: repeat(3, 2fr);
 }
 
-.images-container {
-  background-color: #fff8dc;
-  text-align: center;
-}
 footer {
   color: aliceblue;
   background-image: linear-gradient(
