@@ -50,6 +50,7 @@ main p {
   color: #1b1212;
   opacity: 0.8;
 }
+
 .hero-container h1 {
   margin-top: 100px;
 }
@@ -106,6 +107,12 @@ main p {
   font-size: 50px;
   text-align: center;
   padding: 80px 0;
+}
+
+.character-sub-heading {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 2;
 }
 
 .heading-border {
