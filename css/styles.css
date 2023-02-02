@@ -46,7 +46,7 @@ main h3 {
 main p {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #1b1212;
   opacity: 0.8;
 }
@@ -128,7 +128,7 @@ main p {
 
 .heading-border {
   border: 60px solid;
-  border-image: url("../images/film-border.png") 200;
+  border-image: url("../images/film-border.png") 160;
   box-shadow: -40px 49px 35px 3px rgba(0, 0, 0, 0.2);
 }
 .character-image {
@@ -162,6 +162,82 @@ main p {
 
 .grid-3-column-with-images {
   grid-template-columns: repeat(3, 2fr);
+}
+/* CAST CARD SECTION */
+
+.cast-card {
+  background: #f9f6ee;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-image {
+  display: block;
+  width: 200px;
+  height: 190px;
+}
+
+.card-vito {
+  max-height: 1000px;
+}
+
+.card-james {
+  max-height: 1040px;
+}
+.grid-card {
+  display: grid;
+}
+.grid-3-columns-card {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.card {
+  background: #fff8dc;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+
+main h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: capitalize;
+  line-height: 2;
+}
+
+main h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  margin: 0;
+}
+
+.card-btn {
+  display: block;
+  color: white;
+  background: #1b1212;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.card-header {
+  display: flex;
+}
+
+.card-footer-1,
+.card-footer-2,
+.card-footer-3 {
+  margin-top: 40px;
 }
 
 footer {
@@ -223,6 +299,11 @@ footer a {
   .grid {
     grid-template-columns: 1fr;
     gap: 32px;
+  }
+
+  .grid-card {
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
 
   section {
