@@ -239,6 +239,32 @@ main h5 {
 .card-footer-3 {
   margin-top: 40px;
 }
+/* Location cards */
+.location-card {
+  background: #fff8dc;
+}
+
+.card-location {
+  background: #f9f6ee;
+  margin: 30px 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.card-scene-1 {
+  max-height: 870px;
+}
+
+.card-scene-2 {
+  max-height: 1100px;
+}
+
+.card-scene-3 {
+  max-height: 860px;
+}
 
 footer {
   color: aliceblue;
@@ -308,6 +334,10 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .embed {
+    aspect-ratio: 21/9;
   }
 }
 
