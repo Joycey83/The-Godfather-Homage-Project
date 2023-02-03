@@ -85,6 +85,9 @@ main p {
   color: aliceblue;
 }
 /* The director section */
+.director-bg {
+  background-color: #f9f6ee;
+}
 .director-image {
   display: block;
   max-width: 100%;
@@ -283,7 +286,11 @@ main h5 {
   max-height: 860px;
 }
 
-/* PHOTO GALLERY */
+/* PHOTO GALLERY SECTION*/
+
+.gallery-bg {
+  background-color: #f9f6ee;
+}
 .grid-3-column-photos {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5px;
@@ -294,7 +301,6 @@ main h5 {
   display: block;
   border: 3px solid #818589;
   width: 100%;
-  height: 250px;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   transition: all 200ms ease-in-out;
