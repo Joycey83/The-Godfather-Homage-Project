@@ -366,6 +366,13 @@ footer a {
 
 /* **************************** */
 
+@media (max-width: 820px) {
+  .grid-3-column-photos {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+
 @media (max-width: 800px) {
   .hero-container {
     width: 100%;
@@ -387,6 +394,11 @@ footer a {
 
   .embed {
     aspect-ratio: 21/9;
+  }
+
+  .img-responsive-gallery {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -421,5 +433,10 @@ footer a {
 
   footer {
     width: 100%;
+  }
+
+  .img-responsive-gallery {
+    width: 100%;
+    height: auto;
   }
 }
