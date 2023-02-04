@@ -425,6 +425,9 @@ footer a {
   }
 }
 
+@media (max-width: 768px) {
+}
+
 @media (max-width: 360px) {
   h1 {
     font-size: 30px;
@@ -437,7 +440,9 @@ footer a {
   }
 
   footer {
-    width: 100%;
+    background-image: url("/images/mobile-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .img-responsive-gallery {
