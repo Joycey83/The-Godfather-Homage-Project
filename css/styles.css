@@ -291,9 +291,14 @@ main h5 {
 .gallery-bg {
   background-color: #f9f6ee;
 }
+.grid-photo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 36px;
+  grid-row-gap: 36px;
+}
 .grid-3-column-photos {
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px;
   padding-top: 20px;
 }
 
