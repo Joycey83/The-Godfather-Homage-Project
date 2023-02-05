@@ -386,17 +386,21 @@ footer a {
     height: auto;
   }
 
+  .grid-3-column-with-images {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .card {
-    margin: 20px 120px;
+    margin: 20px 140px;
   }
 
   .card-location {
-    margin: 20px 120px;
+    margin: 20px 140px;
   }
 
   .embed {
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 21/9;
   }
 
   .card-vito {
@@ -416,6 +420,10 @@ footer a {
   }
   .card-scene-3 {
     max-height: 1000px;
+  }
+
+  .photo-gallery-container {
+    margin: 20px 35px;
   }
 }
 
