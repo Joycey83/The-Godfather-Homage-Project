@@ -78,6 +78,16 @@ main p {
   border: 2px solid aliceblue;
   padding: 15px 20px;
   margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.hero-btn:hover {
+  border: 2px solid #880808;
+  cursor: pointer;
+}
+
+.hero-btn:hover a {
+  color: #880808;
 }
 
 .hero-btn a {
@@ -218,6 +228,7 @@ main p {
 .card {
   background: #fff8dc;
   margin: 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .card-body {
   padding: 30px;
@@ -242,6 +253,7 @@ main h5 {
   display: block;
   color: white;
   background: #1b1212;
+  border-radius: 4px;
   text-align: center;
   font-size: 14px;
   font-weight: 500;
@@ -249,6 +261,11 @@ main h5 {
   letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.card-btn:hover {
+  background: #880808;
+  cursor: pointer;
 }
 
 .card-header {
@@ -268,6 +285,7 @@ main h5 {
 .card-location {
   background: #f9f6ee;
   margin: 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .embed {
