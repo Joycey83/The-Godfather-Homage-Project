@@ -425,6 +425,11 @@ footer a {
   .photo-gallery-container {
     margin: 20px 35px;
   }
+
+  .grid-3-column-photos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
 
 @media (max-width: 960px) {
