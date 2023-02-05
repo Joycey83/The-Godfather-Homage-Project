@@ -418,6 +418,7 @@ img.logo {
   .director-heading {
     text-align: center;
   }
+
   .grid-card {
     grid-template-columns: 1fr;
     gap: 15px;
