@@ -378,7 +378,7 @@ footer a {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 960px) {
   .hero-container {
     width: 100%;
     height: auto;
@@ -405,6 +405,18 @@ footer a {
     width: 100%;
     height: auto;
   }
+
+  footer {
+    background-image: linear-gradient(
+        rgba(27, 18, 18, 0.9),
+        rgba(27, 18, 18, 0.9)
+      ),
+      url("../images/godfather-footer-2.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 @media (max-width: 400px) {
@@ -425,9 +437,6 @@ footer a {
   }
 }
 
-@media (max-width: 768px) {
-}
-
 @media (max-width: 360px) {
   h1 {
     font-size: 30px;
@@ -437,12 +446,6 @@ footer a {
   }
   .hero-container {
     width: 100%;
-  }
-
-  footer {
-    background-image: url("/images/mobile-2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
   }
 
   .img-responsive-gallery {
