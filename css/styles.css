@@ -415,6 +415,9 @@ img.logo {
 
 /* **************************** */
 @media (max-width: 1024px) {
+  .director-heading {
+    text-align: center;
+  }
   .grid-card {
     grid-template-columns: 1fr;
     gap: 15px;
