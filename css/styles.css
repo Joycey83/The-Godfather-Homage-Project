@@ -361,6 +361,19 @@ footer a {
   opacity: 0.7;
 }
 
+img.logo {
+  width: 50px;
+  padding: 0 5px;
+}
+.social-media a {
+  font-size: 18px;
+}
+.social-media-container {
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px;
+}
+
 .grid-3-column-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
