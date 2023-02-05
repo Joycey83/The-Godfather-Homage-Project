@@ -461,6 +461,90 @@ footer a {
     aspect-ratio: 16/9;
   }
 }
+
+/* Mobile device: eg. IPHONE XR */
+@media (max-width: 414px) {
+  h1 {
+    font-size: 35px;
+    line-height: 1;
+  }
+
+  .hero-container h2 {
+    font-size: 16px;
+    position: relative;
+    top: -20px;
+    color: aliceblue;
+  }
+
+  .hero-btn {
+    font-size: 12px;
+    padding: 8px 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .grid-2-column {
+    grid-template-columns: 1fr;
+  }
+
+  main h2 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  main h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .heading-border {
+    border-image: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  .character-heading h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .character-sub-heading {
+    font-size: 25px;
+    line-height: 1;
+    margin-top: 60px;
+  }
+
+  .card-image-1 {
+    display: none;
+  }
+
+  .card-image-2 {
+    width: 100%;
+  }
+
+  .card-vito {
+    max-height: 1200px;
+  }
+
+  .card-james {
+    max-height: 1300px;
+  }
+
+  .card-scene-1 {
+    max-height: 1200px;
+  }
+
+  .card-scene-2 {
+    max-height: 1300px;
+  }
+  .card-scene-3 {
+    max-height: 1000px;
+  }
+}
 /* Mobile device: eg. SAMSUNG S21 */
 @media (max-width: 384px) {
   h1 {
