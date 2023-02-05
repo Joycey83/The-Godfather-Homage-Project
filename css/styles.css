@@ -460,6 +460,34 @@ footer a {
     width: 100%;
     aspect-ratio: 16/9;
   }
+
+  .photo-gallery-container {
+    margin: 20px 35px;
+  }
+}
+
+@media (max-width: 667px) {
+  h1 {
+    font-size: 70px;
+    line-height: 1;
+  }
+
+  .hero-container h2 {
+    font-size: 25px;
+    position: relative;
+    top: -20px;
+    color: aliceblue;
+  }
+
+  .hero-btn {
+    font-size: 12px;
+    padding: 20px 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .photo-gallery-container {
+    margin: 20px 35px;
+  }
 }
 
 /* Mobile device: eg. IPHONE XR */
@@ -500,6 +528,11 @@ footer a {
     line-height: 1.2;
   }
 
+  main h4 {
+    font-size: 20px;
+    line-height: 1;
+  }
+
   .heading-border {
     border-image: none;
     border: none;
@@ -524,6 +557,14 @@ footer a {
 
   .card-image-2 {
     width: 100%;
+  }
+
+  .card {
+    margin: 20px;
+  }
+
+  .card-location {
+    margin: 20px;
   }
 
   .card-vito {
@@ -583,6 +624,11 @@ footer a {
     line-height: 1.2;
   }
 
+  main h4 {
+    font-size: 20px;
+    line-height: 1;
+  }
+
   .heading-border {
     border-image: none;
     border: none;
@@ -626,6 +672,47 @@ footer a {
   }
   .card-scene-3 {
     max-height: 1000px;
+  }
+}
+
+/* Mobile device: eg. 375px*/
+@media (max-width: 375px) {
+  main h3 {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  main h4 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  main h5 {
+    font-size: 16px;
+    line-height: 2;
+  }
+  .card {
+    margin: 20px;
+  }
+
+  .card-location {
+    margin: 20px;
+  }
+
+  .card-vito,
+  .card-james {
+    max-height: 1300px;
+  }
+
+  .card-scene-1 {
+    max-height: 1200px;
+  }
+
+  .card-scene-2 {
+    max-height: 1400px;
+  }
+  .card-scene-3 {
+    max-height: 1200px;
   }
 }
 
@@ -693,10 +780,7 @@ footer a {
     width: 100%;
   }
 
-  .card-vito {
-    max-height: 1200px;
-  }
-
+  .card-vito,
   .card-james {
     max-height: 1300px;
   }
@@ -706,7 +790,7 @@ footer a {
   }
 
   .card-scene-2 {
-    max-height: 1300px;
+    max-height: 1400px;
   }
   .card-scene-3 {
     max-height: 1000px;
