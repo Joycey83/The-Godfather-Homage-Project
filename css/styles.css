@@ -439,6 +439,28 @@ footer a {
   }
 }
 
+@media (max-width: 768px) {
+  .card-image-1 {
+    display: none;
+  }
+
+  .card-image-2 {
+    width: 100%;
+  }
+
+  .card {
+    margin: 20px 100px;
+  }
+
+  .card-location {
+    margin: 20px 100px;
+  }
+
+  .embed {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+}
 /* Mobile device: eg. SAMSUNG S21 */
 @media (max-width: 384px) {
   h1 {
