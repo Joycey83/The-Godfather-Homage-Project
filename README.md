@@ -85,3 +85,4 @@ You can also check that the repository has been cloned properly by selecting Git
 # Credit
 
 - **Imagery**
+  - The hero and Footer image are taken from a desktop wallpaper website called Wallpaper Cave [View](https://wallpapercave.com/the-godfather-wallpapers)
