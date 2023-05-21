@@ -81,3 +81,7 @@ You can also check that the repository has been cloned properly by selecting Git
 ![netlify production url.](/images/github-3.png)
 
 5.You can choose to customize the URL by changing the site’s name in the Netlify UI at Site settings > Site details > Site information.
+
+# Credit
+
+- **Imagery**
