@@ -29,3 +29,8 @@ My approach for designing this website was to create it so that it is not only a
 - Read about the main characters by hovering over each main character image
 - Click on the Read more buttons to get more indepth information about the favourite characters
 - Click on the youtube videos to view the three Iconic scenes and you can also view the locations of the scenes by clicking the read more button.
+
+# Frameworks & Programs Used
+
+- Google Fonts One: [El Messiri](https://fonts.google.com/specimen/El+Messiri?query=El+Messiri)
+- Google Fonts Two: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?query=Playfair+Display)
