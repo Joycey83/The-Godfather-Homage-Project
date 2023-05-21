@@ -85,4 +85,10 @@ You can also check that the repository has been cloned properly by selecting Git
 # Credit
 
 - **Imagery**
+
   - The hero and Footer image are taken from a desktop wallpaper website called Wallpaper Cave [View](https://wallpapercave.com/the-godfather-wallpapers)
+  - The characters image was taken from various sources on google search [View](https://www.google.co.uk/search?q=the+godfather+characters&tbm=isch&hl=en&sa=X&ved=2ahUKEwiG24C54Yb_AhWZmScCHaraCKMQrNwCKAB6BQgBENIC&biw=1351&bih=761)
+
+- **Video**
+
+- **Content**
