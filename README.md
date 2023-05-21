@@ -35,3 +35,17 @@ My approach for designing this website was to create it so that it is not only a
 - Google Fonts One: [El Messiri](https://fonts.google.com/specimen/El+Messiri?query=El+Messiri)
 - Google Fonts Two: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?query=Playfair+Display)
 - Iconic scene videos: [YouTube](https://www.youtube.com/)
+
+# Running Locally
+
+## Live server
+
+1.You will need node.js and npm. You should probably install this globally.
+
+2.run the following command in your terminal:
+
+npm install -g live-server
+
+3.In your project directory issue the command live-server
+
+4.This will automatically launch the default browser. When you make a change to any file, the browser will reload the page - unless it was a CSS file in which case the changes are applied without a reload.
