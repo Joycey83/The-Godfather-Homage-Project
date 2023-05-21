@@ -9,3 +9,5 @@ A simple single page website that was created for like minded movie buffs who ar
 [View the live project here.](https://thegodfatherhomage.netlify.app/)
 
 My approach for designing this website was to create it so that it is not only accessible to view on desktop but it is also mobile responsive. The application is also accessible through a range of different devices.
+
+![page mock up.](/images/godfather-mockup.png)
