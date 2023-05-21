@@ -91,4 +91,8 @@ You can also check that the repository has been cloned properly by selecting Git
 
 - **Video**
 
+  - The horse's head and Michael shoots Solozzo and McCluskey scene YouTube videos was taken from a YouTube channel called Rotten tomatoes MovieClips [view](https://www.youtube.com/@MOVIECLIPS)
+  - The baptism scene YouTube video was taken from a YouTube channel called The Godfather
+    [view](https://www.youtube.com/@thegodfather5601)
+
 - **Content**
