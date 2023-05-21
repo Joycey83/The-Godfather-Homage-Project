@@ -20,3 +20,12 @@ My approach for designing this website was to create it so that it is not only a
 - Youtube videos of Iconic scenes from the film The Godfather
 - A Photo gallery
 - External links that provide you more information about the film The Godfather
+
+## Usage
+
+- Visit https://thegodfatherhomage.netlify.app/
+- Read about the director
+- Read about the actors
+- Read about the main characters by hovering over each main character image
+- Click on the Read more buttons to get more indepth information about the favourite characters
+- Click on the youtube videos to view the three Iconic scenes and you can also view the locations of the scenes by clicking the read more button.
